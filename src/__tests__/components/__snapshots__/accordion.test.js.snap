@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion/> Opens and closes the <Accordion/> component 1`] = `
+<div
+  class="accordion__Container-sc-l3iym9-0 gRueST"
+>
+  <div
+    class="accordion__Inner-sc-l3iym9-1 cVqnTE"
+  >
+    <h1
+      class="accordion__Title-sc-l3iym9-5 hXuWgO"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        What is Netflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        How much does Netflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        What can I watch on Netflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion/> Renders the <Accordion/> with populated data 1`] = `
+<div
+  class="accordion__Container-sc-l3iym9-0 gRueST"
+>
+  <div
+    class="accordion__Inner-sc-l3iym9-1 cVqnTE"
+  >
+    <h1
+      class="accordion__Title-sc-l3iym9-5 hXuWgO"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        What is Netflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        How much does Netflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-l3iym9-2 hbseNG"
+    >
+      <div
+        class="accordion__Header-sc-l3iym9-3 jbodlI"
+      >
+        What can I watch on Netflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
