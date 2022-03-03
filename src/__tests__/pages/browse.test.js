@@ -5,10 +5,10 @@ import { Browse } from "../../pages";
 import { FirebaseContext } from "../../context/firebase";
 import { createMemoryHistory } from "history";
 
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"),
-  useHistory: () => ({}),
-}));
+// jest.mock("react-router-dom", () => ({
+//   ...jest.requireActual("react-router-dom"),
+//   useHistory: () => ({}),
+// }));
 
 jest.mock("../../utils", () => ({
   selectionFilter: () => ({
@@ -47,25 +47,24 @@ jest.mock("../../utils", () => ({
   }),
 }));
 
-const firebase = {
-  auth: jest.fn(() => ({
-    currentUser: {
-      displayName: "Ting",
-      photoURL: 1,
-      email: "tingtingchen@gmail.com",
-    },
-    signOut: jest.fn(() => Promise.resolve("I am signed out!")),
-  })),
-  firestore: jest.fn(() => ({
-    collection: jest.fn(() => ({
-      get: jest.fn(() => Promise.resolve("I get content!")),
-      add: jest.fn(() => Promise.resolve("I add content!")),
-    })),
-  })),
-};
-
 describe("<Browse />", () => {
   it("renders the browse page with <SelectProfileContainer />", async () => {
+    const firebase = {
+      auth: jest.fn(() => ({
+        currentUser: {
+          displayName: "Ting",
+          photoURL: 1,
+          email: "tingtingchen@gmail.com",
+        },
+        signOut: jest.fn(() => Promise.resolve("I am signed out!")),
+      })),
+      firestore: jest.fn(() => ({
+        collection: jest.fn(() => ({
+          get: jest.fn(() => Promise.resolve("I get content!")),
+          add: jest.fn(() => Promise.resolve("I add content!")),
+        })),
+      })),
+    };
     const history = createMemoryHistory();
     const { getByTestId, getByPlaceholderText, queryByTestId, debug } = render(
       <Router location={history.location} navigator={history}>

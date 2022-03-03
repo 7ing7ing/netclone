@@ -6,26 +6,25 @@ import { Signup } from "../../pages";
 import { BrowserRouter as Router } from "react-router-dom";
 import { createMemoryHistory } from "history";
 
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"),
-  useHistory: () => ({}),
-}));
-
-const firebase = {
-  auth: jest.fn(() => ({
-    createUserWithEmailAndPassword: jest.fn(() =>
-      Promise.resolve({
-        user: {
-          updateProfile: jest.fn(() => Promise.resolve("I am signed up!")),
-        },
-      })
-    ),
-  })),
-};
+// jest.mock("react-router-dom", () => ({
+//   ...jest.requireActual("react-router-dom"),
+//   useHistory: () => ({}),
+// }));
 
 describe("<Signup/>", () => {
   it("Renders the sign up page with a form submission", async () => {
     const history = createMemoryHistory();
+    const firebase = {
+      auth: jest.fn(() => ({
+        createUserWithEmailAndPassword: jest.fn(() =>
+          Promise.resolve({
+            user: {
+              updateProfile: jest.fn(() => Promise.resolve("I am signed up!")),
+            },
+          })
+        ),
+      })),
+    };
 
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
       <Router location={history.location} navigator={history}>
