@@ -6,22 +6,22 @@ import { Signin } from "../../pages";
 import { BrowserRouter as Router } from "react-router-dom";
 import { createMemoryHistory } from "history";
 
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"),
-  useHistory: () => ({}),
-}));
-
-const firebase = {
-  auth: jest.fn(() => ({
-    signInWithEmailAndPassword: jest.fn(() =>
-      Promise.resolve("I am signed in!")
-    ),
-  })),
-};
+// jest.mock("react-router-dom", () => ({
+//   ...jest.requireActual("react-router-dom"),
+//   useHistory: () => ({}),
+// }));
 
 describe("<Signin/>", () => {
   it("Renders the sign in page with a form submission", async () => {
     const history = createMemoryHistory();
+    const firebase = {
+      auth: jest.fn(() => ({
+        signInWithEmailAndPassword: jest.fn(() =>
+          Promise.resolve("I am signed in!")
+        ),
+      })),
+    };
+
     const { getByTestId, getByPlaceholderText, queryByTestId } = render(
       <Router location={history.location} navigator={history}>
         <FirebaseContext.Provider value={{ firebase }}>
