@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import Fuse from "fuse.js";
-import { SelectProfileContainer } from "./profile";
+import { SelectProfileContainer } from "./profiles";
 import { FooterContainer } from "./footer";
 import { FirebaseContext } from "../context/firebase";
 import { Card, Header, Loading, Player } from "../components";
