@@ -9,8 +9,8 @@ import * as ROUTES from "../constants/routes";
 export default function Signin() {
   const navigate = useNavigate();
   const { firebase } = useContext(FirebaseContext);
-  const [emailAddress, setEmailAddress] = useState("");
-  const [password, setPassword] = useState("");
+  const [emailAddress, setEmailAddress] = useState("tingtingchen@gmail.com");
+  const [password, setPassword] = useState("qwert12345");
   const [error, setError] = useState("");
 
   const isInvalid = password === "" || emailAddress === "";
@@ -43,14 +43,14 @@ export default function Signin() {
           <Form.Base onSubmit={handleSignIn} method="POST">
             <Form.Input
               placeholder="Email address"
-              value={emailAddress}
+              defaultValue={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
             <Form.Input
               type="password"
               placeholder="Password"
               autoComplete="off"
-              value={password}
+              defaultValue={password}
               onChange={({ target }) => setPassword(target.value)}
             />
             <Form.Submit
