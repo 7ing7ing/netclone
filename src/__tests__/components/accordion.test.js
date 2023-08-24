@@ -18,11 +18,11 @@ describe("<Accordion/>", () => {
     );
 
     expect(getByText("Frequently Asked Questions")).toBeTruthy();
-    expect(getByText("What is Netflix?")).toBeTruthy();
-    expect(getByText("How much does Netflix cost?")).toBeTruthy();
+    expect(getByText("What is Netclone?")).toBeTruthy();
+    expect(getByText("How much does Netclone cost?")).toBeTruthy();
     expect(getByText("Where can I watch?")).toBeTruthy();
     expect(getByText("How do I cancel?")).toBeTruthy();
-    expect(getByText("What can I watch on Netflix?")).toBeTruthy();
+    expect(getByText("What can I watch on Netclone?")).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
 
@@ -39,15 +39,15 @@ describe("<Accordion/>", () => {
       </Accordion>
     );
 
-    const whatIsNetflixBodyText =
-      "Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!";
+    const whatIsNetcloneBodyText =
+      "Netclone is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single advert – all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!";
 
-    expect(queryByText(whatIsNetflixBodyText)).toBeFalsy();
-    fireEvent.click(queryByText("What is Netflix?"));
-    expect(queryByText(whatIsNetflixBodyText)).toBeTruthy();
+    expect(queryByText(whatIsNetcloneBodyText)).toBeFalsy();
+    fireEvent.click(queryByText("What is Netclone?"));
+    expect(queryByText(whatIsNetcloneBodyText)).toBeTruthy();
 
-    fireEvent.click(queryByText("What is Netflix?"));
-    expect(queryByText(whatIsNetflixBodyText)).toBeFalsy();
+    fireEvent.click(queryByText("What is Netclone?"));
+    expect(queryByText(whatIsNetcloneBodyText)).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
 });

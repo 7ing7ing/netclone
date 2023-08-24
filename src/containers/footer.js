@@ -12,7 +12,7 @@ export function FooterContainer() {
           <Footer.Link href="#">Investor relations</Footer.Link>
           <Footer.Link href="#">Ways to watch</Footer.Link>
           <Footer.Link href="#">Corporate information</Footer.Link>
-          <Footer.Link href="#">Netflix originals</Footer.Link>
+          <Footer.Link href="#">Netclone originals</Footer.Link>
         </Footer.Column>
         <Footer.Column>
           <Footer.Link href="#">Help centre</Footer.Link>
@@ -34,7 +34,7 @@ export function FooterContainer() {
         </Footer.Column>
       </Footer.Row>
       <Footer.Break />
-      <Footer.Text>Netflix United Kingdom</Footer.Text>
+      <Footer.Text>Netclone United Kingdom</Footer.Text>
     </Footer>
   );
 }

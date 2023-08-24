@@ -26,7 +26,7 @@ describe("<Jumbotron />", () => {
     );
 
     expect(getByText("Enjoy on your TV.")).toBeTruthy();
-    expect(getByAltText("Tiger King on Netflix")).toBeTruthy();
+    expect(getByAltText("Tiger King on Netclone")).toBeTruthy();
     expect(getByTestId("1-jumbo-image")).toBeTruthy();
     expect(
       getByText(

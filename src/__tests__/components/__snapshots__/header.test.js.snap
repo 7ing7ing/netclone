@@ -12,7 +12,7 @@ exports[`<Header/> Renders the basic <Header/> with a background 1`] = `
       href="/"
     >
       <img
-        alt="Netflix"
+        alt="Netclone"
         class="header__Logo-sc-djltcn-11 kPTRyU"
       />
     </a>
@@ -33,7 +33,7 @@ exports[`<Header/> Renders the basic <Header/> without a background 1`] = `
     href="/"
   >
     <img
-      alt="Netflix"
+      alt="Netclone"
       class="header__Logo-sc-djltcn-11 kPTRyU"
       src="/logo.svg"
     />
@@ -68,7 +68,7 @@ exports[`<Header/> Renders the full <Header/> with background 1`] = `
         href="/"
       >
         <img
-          alt="Netflix"
+          alt="Netclone"
           class="header__Logo-sc-djltcn-11 kPTRyU"
           src="/images/logo.svg"
         />

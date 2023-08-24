@@ -18,7 +18,7 @@ exports[`<Accordion/> Opens and closes the <Accordion/> component 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        What is Netflix?
+        What is Netclone?
         <img
           alt="Open"
           src="/images/icons/add.png"
@@ -31,7 +31,7 @@ exports[`<Accordion/> Opens and closes the <Accordion/> component 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        How much does Netflix cost?
+        How much does Netclone cost?
         <img
           alt="Open"
           src="/images/icons/add.png"
@@ -70,7 +70,7 @@ exports[`<Accordion/> Opens and closes the <Accordion/> component 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        What can I watch on Netflix?
+        What can I watch on Netclone?
         <img
           alt="Open"
           src="/images/icons/add.png"
@@ -99,7 +99,7 @@ exports[`<Accordion/> Renders the <Accordion/> with populated data 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        What is Netflix?
+        What is Netclone?
         <img
           alt="Open"
           src="/images/icons/add.png"
@@ -112,7 +112,7 @@ exports[`<Accordion/> Renders the <Accordion/> with populated data 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        How much does Netflix cost?
+        How much does Netclone cost?
         <img
           alt="Open"
           src="/images/icons/add.png"
@@ -151,7 +151,7 @@ exports[`<Accordion/> Renders the <Accordion/> with populated data 1`] = `
       <div
         class="accordion__Header-sc-l3iym9-3 jbodlI"
       >
-        What can I watch on Netflix?
+        What can I watch on Netclone?
         <img
           alt="Open"
           src="/images/icons/add.png"
