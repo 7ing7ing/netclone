@@ -35,7 +35,7 @@ exports[`<Header/> Renders the basic <Header/> without a background 1`] = `
     <img
       alt="Netclone"
       class="header__Logo-sc-djltcn-11 kPTRyU"
-      src="/logo.svg"
+      src="/netclone-logo.png"
     />
   </a>
   <a
@@ -70,7 +70,7 @@ exports[`<Header/> Renders the full <Header/> with background 1`] = `
         <img
           alt="Netclone"
           class="header__Logo-sc-djltcn-11 kPTRyU"
-          src="/images/logo.svg"
+          src="/images/netclone-logo.png"
         />
       </a>
       <p

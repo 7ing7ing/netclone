@@ -11,7 +11,7 @@ describe("<Header/>", () => {
       <Router location={history.location} navigator={history}>
         <Header>
           <Header.Frame>
-            <Header.Logo to="/" usrc="/logo.svg" alt="Netclone" />
+            <Header.Logo to="/" usrc="/netclone-logo.png" alt="Netclone" />
             <Header.TextLink active="true">Hello I am a link!</Header.TextLink>
           </Header.Frame>
         </Header>
@@ -28,7 +28,7 @@ describe("<Header/>", () => {
       <Router location={history.location} navigator={history}>
         <Header bg={false}>
           <Header.Frame>
-            <Header.Logo to="/" src="/logo.svg" alt="Netclone" />
+            <Header.Logo to="/" src="/logo.svnetclone-logo.png" alt="Netclone" />
             <Header.ButtonLink to="/">Sign in</Header.ButtonLink>
             <Header.TextLink active="false">Hello I am a link!</Header.TextLink>
           </Header.Frame>
@@ -47,7 +47,7 @@ describe("<Header/>", () => {
         <Header src="joker1" dontShowOnSmallViewPort>
           <Header.Frame>
             <Header.Group>
-              <Header.Logo to="/" src="/images/logo.svg" alt="Netclone" />
+              <Header.Logo to="/" src="/images/netclone-logo.png" alt="Netclone" />
               <Header.TextLink active={false} onClick={() => {}}>
                 Series
               </Header.TextLink>

@@ -38,6 +38,7 @@ export default function Signin() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign in now</Form.Title>
+          <Form.Text>This is not the real Netflix! Don't use your real credentials! </Form.Text>
           {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
           <Form.Base onSubmit={handleSignIn} method="POST">
