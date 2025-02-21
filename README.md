@@ -14,4 +14,4 @@
 
 
 :link:Link:
-- https://streamnetclone.vercel.app/
+- https://netclonestreaming.vercel.app/
